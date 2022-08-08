@@ -33,6 +33,8 @@ export default function Testimonials() {
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
     },
+    
+    
   ];
   return (
     <div className="testimonials" id="testimonials">
@@ -51,8 +53,8 @@ export default function Testimonials() {
               {d.desc}
             </div>
             <div className="bottom">
-              <h3>{d.title}</h3>
-              <h4>CEO of LAMA</h4>
+              <h3>{d.name}</h3>
+              <h4>{d.title}</h4>
             </div>
           </div>
           ))}
